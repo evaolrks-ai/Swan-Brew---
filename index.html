@@ -4,49 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body {
-            background-color: black;
-        }
-
-        h1 {
-            color: aliceblue;
-        }
-
-        li {
-            color: aliceblue;
-        }
-
-        h2 {
-            color: aliceblue;
-        }
-
-        h3 {
-            color: aliceblue;
-        }
-
-        p {
-            color: aliceblue;
-        }
-
-        h4 {
-            color: aliceblue;
-        }
-
-        a {
-            color: aliceblue;
-        }
-    </style>
-</head>
+    <title>Swan Brew - Cafe</title>
+    <link rel="stylesheet" href="./style.css">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
 
 <body>
-    <header>
+
+    <header> 
         <img src="./images/swanBrew.jpg" alt="Swan Brew" width="45">
-        <img src="./images/navigation.jpg" alt="Nav">
-        <img src="./images/socialMedia.jpg" alt="SocialMedia">
+
         <h1>Swan Brew</h1>
-        <nav>
+      <nav>
             <ul>
                 <li><a href="seasonal.html">Seasonal drinks</a></li>
                 <li><a href="#hero">Main</a></li>
@@ -60,7 +28,7 @@
     <main>
         <section id="hero">
             <img src="./images/logotype.jpg" alt="Чашка кави та матча з лебедем" width="150">
-            <p>Sweet coffee and matcha, full of inspiration</p>
+            <p class="intro">Sweet coffee and matcha, full of inspiration</p>
             <h2><em>Відчуй тепло й спокій всередині разом із нашою <br>
                     кавою та матча — напоями, створеними для моментів <br>
                     тиші, натхнення і справжньої насолоди.</em></h2>
@@ -88,43 +56,44 @@
                 а матча — баланс і спокій.
             </p>
         </section>
-        <section id="menu">
-            <h4>Наш асортимент</h4>
+        <hr>
+        <section><h4>Наш асортимент</h4>
             <p>
                 У нашому меню — класична кава, ніжна матча <br>
                 та авторські напої, які дарують комфорт і <br>
                 спокій. Кожен напій — це баланс смаку,<br>
                 аромату та настрою.
-            </p>
-            <article>
+            </p></section>
+        <section id="menu">
+            <article class="product-card">
                 <img src="./images/iceLatte.JPEG" alt="Чашка Айс Лате" width="200">
                 <h3>Айс Лате</h3>
                 <p>Освіжаючий холодний лате з <br>
                     молочною піною та кубиками льоду.</p>
                 <p><strong>Ціна: $4.50 </strong><button>Замовити зараз</button></p>
             </article>
-            <article>
+            <article class="product-card">
                 <img src="./images/icedMatchaLatte.JPEG" alt="Чашка Айс Матча" width="200">
                 <h3>Айс Матча</h3>
                 <p>Ніжна холодна матча з льодом <br>
                     для енергії та свіжості цілий день.</p>
                 <p><strong>Ціна: $5.00</strong><button>Замовити зараз</button></p>
             </article>
-            <article>
+            <article class="product-card">
                 <img src="./images/vanillaLatte.JPEG" alt="Чашка Ванільного Лате" width="200">
                 <h3>Ванільне Лате</h3>
                 <p>М’який лате з ароматом ванілі. <br>
                     Теплий і затишний напій для будь-якого настрою.</p>
                 <p><strong>Ціна: $4.75 </strong><button>Замовити зараз</button></p>
             </article>
-            <article>
+            <article class="product-card">
                 <img src="./images/matchaMangoSmothie.JPEG" alt="Матча смузі з манго" width="200">
                 <h3>Матча Смузі з манго</h3>
                 <p>Смузі з матча та манго — освіжаючий <br>
                     напій, який дарує енергію та настрій.</p>
                 <p><strong>Ціна: $5.75</strong><button>Замовити зараз</button></p>
             </article>
-            <article>
+            <article class="product-card">
                 <img src="./images/caramelIcedLatte.JPEG" alt="Карамельний Айс Лате" width="200">
                 <h3>Карамельний Айс Лате</h3>
                 <p>Освіжаючий лате з льодом та нотками <br>
@@ -139,12 +108,13 @@
                 справжнє задоволення. Замовляти улюблений напій <br>
                 ніколи не було так легко!</h2>
             <h2>Простий спосіб замовити їжу</h2>
-            <ul>
+           <ul>
                 <li>Виберіть свою їжу</li>
                 <li>Додати в кошик</li>
                 <li>замовляйте їжу</li>
+           
             </ul>
-            <img src="./images/cta.pdf alt=" alt="app store play store" width="250">
+       
         </section>
         <form name="register-form">
             <h2> <em>Є питання? звертайтеся</em></h2>
@@ -154,12 +124,12 @@
             <button type="submit">Відправити</button>
         </form>
     </main>
-    <footer>
-        <img src="./images/swanBrew.jpg" alt="logo" width="45">
+    
+    <footer> 
         <nav>
             <ul>
                 <li><a href="#hero">Main</a></li>
-                <li><a href="#seasonal">Seasonal drinks</a></li>
+                <li><a href="seasonal.html">Seasonal drinks</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#menu">Trainers</a></li>
                 <li><a href="#app">App</a></li>
